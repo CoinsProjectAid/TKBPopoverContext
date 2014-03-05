@@ -21,6 +21,9 @@
 		4315B53218C558AA0061F61F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315B51418C558AA0061F61F /* UIKit.framework */; };
 		4315B53A18C558AA0061F61F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4315B53818C558AA0061F61F /* InfoPlist.strings */; };
 		4315B53C18C558AA0061F61F /* TKBPopoverContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315B53B18C558AA0061F61F /* TKBPopoverContextTests.m */; };
+		433DB20B18C7761100E3CC2B /* TKBSampleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */; };
+		433DB20C18C7761100E3CC2B /* TKBSampleContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */; };
+		433DB21318C7773400E3CC2B /* TKBPopoverContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB21218C7773400E3CC2B /* TKBPopoverContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		4315B53718C558AA0061F61F /* TKBPopoverContextTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKBPopoverContextTests-Info.plist"; sourceTree = "<group>"; };
 		4315B53918C558AA0061F61F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4315B53B18C558AA0061F61F /* TKBPopoverContextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKBPopoverContextTests.m; sourceTree = "<group>"; };
+		433DB20818C7761100E3CC2B /* TKBSampleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBSampleContentViewController.h; sourceTree = "<group>"; };
+		433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBSampleContentViewController.m; sourceTree = "<group>"; };
+		433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKBSampleContentViewController.xib; sourceTree = "<group>"; };
+		433DB21118C7773400E3CC2B /* TKBPopoverContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBPopoverContext.h; sourceTree = "<group>"; };
+		433DB21218C7773400E3CC2B /* TKBPopoverContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBPopoverContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		4315B51618C558AA0061F61F /* TKBPopoverContext */ = {
 			isa = PBXGroup;
 			children = (
+				433DB21418C7778D00E3CC2B /* Library */,
+				433DB20818C7761100E3CC2B /* TKBSampleContentViewController.h */,
+				433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */,
+				433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */,
 				4315B51F18C558AA0061F61F /* TKBAppDelegate.h */,
 				4315B52018C558AA0061F61F /* TKBAppDelegate.m */,
 				4315B52218C558AA0061F61F /* Main.storyboard */,
@@ -150,6 +162,15 @@
 				4315B53818C558AA0061F61F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		433DB21418C7778D00E3CC2B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				433DB21118C7773400E3CC2B /* TKBPopoverContext.h */,
+				433DB21218C7773400E3CC2B /* TKBPopoverContext.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +253,7 @@
 				4315B52918C558AA0061F61F /* Images.xcassets in Resources */,
 				4315B51B18C558AA0061F61F /* InfoPlist.strings in Resources */,
 				4315B52418C558AA0061F61F /* Main.storyboard in Resources */,
+				433DB20C18C7761100E3CC2B /* TKBSampleContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +275,8 @@
 				4315B52118C558AA0061F61F /* TKBAppDelegate.m in Sources */,
 				4315B51D18C558AA0061F61F /* main.m in Sources */,
 				4315B52718C558AA0061F61F /* TKBViewController.m in Sources */,
+				433DB20B18C7761100E3CC2B /* TKBSampleContentViewController.m in Sources */,
+				433DB21318C7773400E3CC2B /* TKBPopoverContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +487,7 @@
 				4315B54118C558AA0061F61F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4315B54218C558AA0061F61F /* Build configuration list for PBXNativeTarget "TKBPopoverContextTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +496,7 @@
 				4315B54418C558AA0061F61F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

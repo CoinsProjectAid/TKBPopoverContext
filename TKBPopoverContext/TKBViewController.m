@@ -7,8 +7,12 @@
 //
 
 #import "TKBViewController.h"
+#import "TKBPopoverContext.h"
+#import "TKBSampleContentViewController.h"
 
 @interface TKBViewController ()
+
+@property (weak, nonatomic) IBOutlet UIButton *popoverButton;
 
 @end
 
@@ -24,6 +28,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)presentPopover:(id)sender {
+    TKBPopoverContext *popoverContext = [TKBPopoverContext sharedPopoverContext];
+    [popoverContext presentPopoverWithContentViewController:[[TKBSampleContentViewController alloc] initWithNibName:@"TKBSampleContentViewController" bundle:[NSBundle mainBundle]]
+                                                   fromRect:_popoverButton.frame
+                                                     inView:self.view
+                                   permittedArrowDirections:UIPopoverArrowDirectionAny
+                                                   animated:YES];
+
 }
 
 @end
