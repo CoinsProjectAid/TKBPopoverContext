@@ -95,13 +95,13 @@
 - (void)pushPopoverController:(UIPopoverController *)popoverController
 {
     [_popoverControllers addObject:popoverController];
-    NSLog(@"Popover count = %ld", (long)[self numberOfPopovers]);
+//    NSLog(@"Popover count = %ld", (long)[self numberOfPopovers]);
 }
 
 - (void)popPopoverController
 {
     [_popoverControllers removeLastObject];
-    NSLog(@"Popover count = %ld", (long)[self numberOfPopovers]);
+//    NSLog(@"Popover count = %ld", (long)[self numberOfPopovers]);
 }
 
 @end
