@@ -21,6 +21,19 @@
 		4315B53218C558AA0061F61F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315B51418C558AA0061F61F /* UIKit.framework */; };
 		4315B53A18C558AA0061F61F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4315B53818C558AA0061F61F /* InfoPlist.strings */; };
 		4315B53C18C558AA0061F61F /* TKBPopoverContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315B53B18C558AA0061F61F /* TKBPopoverContextTests.m */; };
+		433BF9BC18CA82CD008AC26A /* TKBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315B52018C558AA0061F61F /* TKBAppDelegate.m */; };
+		433BF9BD18CA82CD008AC26A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315B51C18C558AA0061F61F /* main.m */; };
+		433BF9BE18CA82CD008AC26A /* TKBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315B52618C558AA0061F61F /* TKBViewController.m */; };
+		433BF9BF18CA82CD008AC26A /* TKBSampleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */; };
+		433BF9C018CA82CD008AC26A /* TKBPopoverContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB21218C7773400E3CC2B /* TKBPopoverContext.m */; };
+		433BF9C218CA82CD008AC26A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315B51218C558AA0061F61F /* CoreGraphics.framework */; };
+		433BF9C318CA82CD008AC26A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315B51418C558AA0061F61F /* UIKit.framework */; };
+		433BF9C418CA82CD008AC26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315B51018C558A90061F61F /* Foundation.framework */; };
+		433BF9C618CA82CD008AC26A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4315B52818C558AA0061F61F /* Images.xcassets */; };
+		433BF9C718CA82CD008AC26A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4315B51918C558AA0061F61F /* InfoPlist.strings */; };
+		433BF9C818CA82CD008AC26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4315B52218C558AA0061F61F /* Main.storyboard */; };
+		433BF9C918CA82CD008AC26A /* TKBSampleContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */; };
+		433BF9D118CA838F008AC26A /* UIPopoverController+Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BF9D018CA838F008AC26A /* UIPopoverController+Phone.m */; };
 		433DB20B18C7761100E3CC2B /* TKBSampleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */; };
 		433DB20C18C7761100E3CC2B /* TKBSampleContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */; };
 		433DB21318C7773400E3CC2B /* TKBPopoverContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 433DB21218C7773400E3CC2B /* TKBPopoverContext.m */; };
@@ -56,6 +69,10 @@
 		4315B53718C558AA0061F61F /* TKBPopoverContextTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKBPopoverContextTests-Info.plist"; sourceTree = "<group>"; };
 		4315B53918C558AA0061F61F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4315B53B18C558AA0061F61F /* TKBPopoverContextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKBPopoverContextTests.m; sourceTree = "<group>"; };
+		433BF9CD18CA82CD008AC26A /* TKBPopoverContext copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TKBPopoverContext copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		433BF9CE18CA82CE008AC26A /* TKBPopoverContext copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TKBPopoverContext copy-Info.plist"; path = "/Users/yusukeiwama/Development/iOS/COINSProjectAid/Members/YusukeIwama/TKBPopoverContext/TKBPopoverContext copy-Info.plist"; sourceTree = "<absolute>"; };
+		433BF9CF18CA838F008AC26A /* UIPopoverController+Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+Phone.h"; sourceTree = "<group>"; };
+		433BF9D018CA838F008AC26A /* UIPopoverController+Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+Phone.m"; sourceTree = "<group>"; };
 		433DB20818C7761100E3CC2B /* TKBSampleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBSampleContentViewController.h; sourceTree = "<group>"; };
 		433DB20918C7761100E3CC2B /* TKBSampleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBSampleContentViewController.m; sourceTree = "<group>"; };
 		433DB20A18C7761100E3CC2B /* TKBSampleContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKBSampleContentViewController.xib; sourceTree = "<group>"; };
@@ -84,6 +101,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		433BF9C118CA82CD008AC26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BF9C218CA82CD008AC26A /* CoreGraphics.framework in Frameworks */,
+				433BF9C318CA82CD008AC26A /* UIKit.framework in Frameworks */,
+				433BF9C418CA82CD008AC26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +121,7 @@
 				4315B53518C558AA0061F61F /* TKBPopoverContextTests */,
 				4315B50F18C558A90061F61F /* Frameworks */,
 				4315B50E18C558A90061F61F /* Products */,
+				433BF9CE18CA82CE008AC26A /* TKBPopoverContext copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +130,7 @@
 			children = (
 				4315B50D18C558A90061F61F /* TKBPopoverContext.app */,
 				4315B52E18C558AA0061F61F /* TKBPopoverContextTests.xctest */,
+				433BF9CD18CA82CD008AC26A /* TKBPopoverContext copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +198,8 @@
 			children = (
 				433DB21118C7773400E3CC2B /* TKBPopoverContext.h */,
 				433DB21218C7773400E3CC2B /* TKBPopoverContext.m */,
+				433BF9CF18CA838F008AC26A /* UIPopoverController+Phone.h */,
+				433BF9D018CA838F008AC26A /* UIPopoverController+Phone.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -211,6 +242,23 @@
 			productReference = 4315B52E18C558AA0061F61F /* TKBPopoverContextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		433BF9BA18CA82CD008AC26A /* TKBPopoverContext copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433BF9CA18CA82CD008AC26A /* Build configuration list for PBXNativeTarget "TKBPopoverContext copy" */;
+			buildPhases = (
+				433BF9BB18CA82CD008AC26A /* Sources */,
+				433BF9C118CA82CD008AC26A /* Frameworks */,
+				433BF9C518CA82CD008AC26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TKBPopoverContext copy";
+			productName = TKBPopoverContext;
+			productReference = 433BF9CD18CA82CD008AC26A /* TKBPopoverContext copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +289,7 @@
 			targets = (
 				4315B50C18C558A90061F61F /* TKBPopoverContext */,
 				4315B52D18C558AA0061F61F /* TKBPopoverContextTests */,
+				433BF9BA18CA82CD008AC26A /* TKBPopoverContext copy */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +314,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		433BF9C518CA82CD008AC26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BF9C618CA82CD008AC26A /* Images.xcassets in Resources */,
+				433BF9C718CA82CD008AC26A /* InfoPlist.strings in Resources */,
+				433BF9C818CA82CD008AC26A /* Main.storyboard in Resources */,
+				433BF9C918CA82CD008AC26A /* TKBSampleContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -274,6 +334,7 @@
 			files = (
 				4315B52118C558AA0061F61F /* TKBAppDelegate.m in Sources */,
 				4315B51D18C558AA0061F61F /* main.m in Sources */,
+				433BF9D118CA838F008AC26A /* UIPopoverController+Phone.m in Sources */,
 				4315B52718C558AA0061F61F /* TKBViewController.m in Sources */,
 				433DB20B18C7761100E3CC2B /* TKBSampleContentViewController.m in Sources */,
 				433DB21318C7773400E3CC2B /* TKBPopoverContext.m in Sources */,
@@ -285,6 +346,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4315B53C18C558AA0061F61F /* TKBPopoverContextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BF9BB18CA82CD008AC26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BF9BC18CA82CD008AC26A /* TKBAppDelegate.m in Sources */,
+				433BF9BD18CA82CD008AC26A /* main.m in Sources */,
+				433BF9BE18CA82CD008AC26A /* TKBViewController.m in Sources */,
+				433BF9BF18CA82CD008AC26A /* TKBSampleContentViewController.m in Sources */,
+				433BF9C018CA82CD008AC26A /* TKBPopoverContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +482,7 @@
 				GCC_PREFIX_HEADER = "TKBPopoverContext/TKBPopoverContext-Prefix.pch";
 				INFOPLIST_FILE = "TKBPopoverContext/TKBPopoverContext-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,6 +496,7 @@
 				GCC_PREFIX_HEADER = "TKBPopoverContext/TKBPopoverContext-Prefix.pch";
 				INFOPLIST_FILE = "TKBPopoverContext/TKBPopoverContext-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +543,34 @@
 			};
 			name = Release;
 		};
+		433BF9CB18CA82CD008AC26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKBPopoverContext/TKBPopoverContext-Prefix.pch";
+				INFOPLIST_FILE = "TKBPopoverContext copy-Info.plist";
+				PRODUCT_NAME = "TKBPopoverContext copy";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		433BF9CC18CA82CD008AC26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKBPopoverContext/TKBPopoverContext-Prefix.pch";
+				INFOPLIST_FILE = "TKBPopoverContext copy-Info.plist";
+				PRODUCT_NAME = "TKBPopoverContext copy";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,6 +597,15 @@
 			buildConfigurations = (
 				4315B54318C558AA0061F61F /* Debug */,
 				4315B54418C558AA0061F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433BF9CA18CA82CD008AC26A /* Build configuration list for PBXNativeTarget "TKBPopoverContext copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BF9CB18CA82CD008AC26A /* Debug */,
+				433BF9CC18CA82CD008AC26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
