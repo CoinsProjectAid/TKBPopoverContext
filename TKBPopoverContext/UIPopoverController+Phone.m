@@ -11,7 +11,7 @@
 @implementation UIPopoverController (Phone)
 
 + (BOOL)_popoversDisabled
-{
+{    
     return NO;
 }
 

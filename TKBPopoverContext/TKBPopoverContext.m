@@ -40,6 +40,7 @@
     UIPopoverController *popoverController = [[UIPopoverController alloc] initWithContentViewController:contentViewController];
     popoverController.delegate = self;
     popoverController.popoverContentSize = contentViewController.view.frame.size;
+    popoverController.backgroundColor    = contentViewController.view.backgroundColor;
     [popoverController presentPopoverFromRect:rect inView:view permittedArrowDirections:directions animated:animated];
     [self pushPopoverController:popoverController];
 }
